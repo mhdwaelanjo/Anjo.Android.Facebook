@@ -1,0 +1,28 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<remove-node path="/api/package[@name='com.facebook']/class[@name='GraphRequestAsyncTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.Void...']]" />
+
+	<attr path="/api/package[@name='com.facebook']/class[@name='GraphRequestBatch']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
+
+	<remove-node path="/api/package[@name='com.facebook.appevents.internal']/class[@name='FileDownloadTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.String...']]" />
+
+	<remove-node path="/api/package[@name='com.facebook.internal.logging.dumpsys']/class[@name='AndroidRootResolver.ListenableArrayList']/method[@name='size' and count(parameter)=0]" />
+
+	<remove-node path="/api/package[@name='com.facebook']/class[@name='GraphRequestBatch']/method[@name='size' and count(parameter)=0]" />
+
+	<remove-node path="/api/package[@name='com.facebook']/class[@name='GraphRequestBatch']/method[@name='getSize' and count(parameter)=0]" />
+
+
+
+	<remove-node path="/api/package[@name='com.facebook.appevents.internal']/class[@name='FileDownloadTask']" />
+	<remove-node path="/api/package[@name='com.facebook']/class[@name='GraphRequestAsyncTask']" />
+	<remove-node  path="/api/package[@name='com.facebook']/class[@name='GraphRequestBatch']" />
+
+</metadata>
