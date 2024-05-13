@@ -7,19 +7,19 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Facebook.Login</PackageId>
-		<PackageVersion>16.3.0</PackageVersion>
-		<AssemblyVersion>16.3.0</AssemblyVersion>
-		<FileVersion>16.3.0</FileVersion>
-		<Version>16.3.0</Version>
+		<PackageVersion>17.0.0</PackageVersion>
+		<AssemblyVersion>17.0.0</AssemblyVersion>
+		<FileVersion>17.0.0</FileVersion>
+		<Version>17.0.0</Version>
 		<Title>Anjo Android Facebook.Login SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Facebook</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Facebook.Login SDK</Description>
-		<PackageReleaseNotes>Facebook.Login SDK v16.3.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Facebook.Login SDK v17.0.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Facebook, Android, social login, Advertising</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Facebook, Android, social login, Advertising</PackageTags>
 		<Summary>.NET for Android (formerly Xamarin.Android) Binding Library - Facebook.Login SDK</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\facebook-login-16.3.0.aar" />
+	  <None Remove="Jars\facebook-login-17.0.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
